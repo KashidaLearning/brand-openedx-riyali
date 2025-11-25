@@ -2,7 +2,53 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 // Apply GE Dinar One when the page is RTL
-html[dir="rtl"], body[dir="rtl"] {
-  font-family: "Dinar" !important;
+html, body {
+  font-family: "GE Dinar One", sans-serif !important;
 }
+
+
+//Learner Dashboard MFE Styles
+
+.text-dark-500 {
+    color: #1C104B !important;
+    font-weight: 700 !important;
+    font-family: 'GE Dinar One' !important;
+}
+
+.align-middle {
+      color: #1C104B !important;
+}
+
+#looking-for-challenge-widget.pgn__card.horizontal {
+  flex-direction: row-reverse !important;
+}
+
+.course-list-title {
+  font-family: 'GE Dinar One' !important;
+}
+
+.btn {
+    font-family: 'GE Dinar One' !important;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'GE Dinar One', sans-serif !important;
+  color: #1C104B !important;
+}
+
+.masquerade-bar w-100, .alert-message-content {
+  font-family: 'GE Dinar One' !important;
+}
+
+// Learning MFE Styles
+
+.text-primary {
+    color: #00B2AB !important;
+}
+ 
+
+
+
+
 
