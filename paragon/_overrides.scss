@@ -1,2 +1,8 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+// Apply GE Dinar One when the page is RTL
+html[dir="rtl"], body[dir="rtl"] {
+  font-family: "Dinar" !important;
+}
+
