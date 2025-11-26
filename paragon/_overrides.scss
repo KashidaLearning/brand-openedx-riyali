@@ -51,6 +51,30 @@ html, body {
     color: #00B2AB !important;
 }
 
+.btn-brand {
+    background-color: #1c104b !important;
+    border-color: #1c104b !important;
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background-color: #150c3a !important; 
+    border-color: #150c3a !important; 
+    color: #fff;
+}
+
+a {
+    background-color: #0000;
+    color: #00b2ab !important;
+    text-decoration: none;
+}
+
+.btn-link {
+    color: #00b2ab !important;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 
 // Authenitcation MFE Styles
 .bg-primary-400 {
