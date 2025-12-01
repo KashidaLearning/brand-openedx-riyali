@@ -41,7 +41,7 @@ html, body {
   font-family: 'GE Dinar One' !important;
 }
 
-.pgn__card-body .m-auto .pr-2 {
+.pr-2 {
   padding: 20px !important;
 }
 
@@ -54,19 +54,13 @@ html, body {
 .btn-brand {
     background-color: #1c104b !important;
     border-color: #1c104b !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 .btn-brand:hover {
     background-color: #150c3a !important; 
     border-color: #150c3a !important; 
-    color: #fff;
-}
-
-a {
-    background-color: #0000;
-    color: #00b2ab !important;
-    text-decoration: none;
+    color: #fff !important;
 }
 
 .btn-link {
